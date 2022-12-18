@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "title": "Internship",
+        "projects": [
+            {
+                "id": 11,
+                "title": "B3 Internal Project",
+                "githubUrl": "",
+                "images": [
+                    {
+                        "url": "../src/images/RunTime/logo.JPG",
+                        "caption": "B3 Logo"
+                    }
+                ],
+                "summary": "App and website built with React and React Native.",
+                "description": "The purpose of this project is to build a website with a connected app. The website is built with React and the app with React Native. The app is made for both iOS and Android.",
+                "languages": ["React", "React Native", "Redux"]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Personal Projects",
+        "projects": [
+            {
+                "id": 21,
+                "title": "Resume Website",
+                "githubUrl": "",
+                "images": [
+                    {
+                        "url": "../src/images/ResumeImages/Resume.JPG",
+                        "caption": "Resume"
+                    },
+                    {
+                        "url": "../src/images/ResumeImages/Projects.JPG",
+                        "caption": "Projects"
+                    },
+                    {
+                        "url": "../src/images/ResumeImages/AboutMe.JPG",
+                        "caption": "About Me"
+                    }
+                ],
+                "summary": "This website! :) This is built with Vue.",
+                "description": "This website is built with Vue and reads its data from local JSON files. I decided to use Vue to continue practice what I had been taught in school. The design and layout are all made by me.",
+                "languages": ["Vue", "Javascript", "HTML", "CSS"]
+            },
+            {
+                "id": 22,
+                "title": "Tetris",
+                "githubUrl": "https://github.com/CMogstad/Tetris",
+                "images": [
+                    {
+                        "url": "../src/images/TetrisImages/gameplay.JPG",
+                        "caption": "Gameplay"
+                    },
+                    {
+                        "url": "../src/images/TetrisImages/pausedgame.JPG",
+                        "caption": "Paused game"
+                    },
+                    {
+                        "url": "../src/images/TetrisImages/gameover.JPG",
+                        "caption": "Game over"
+                    }
+                ],
+                "summary": "Tetris game built with Java and Swing.",
+                "description": "Tetris game built with Java and Swing. The falling blockes are controlled by the arrow keys and the game can be paused by clicking the pause button. The players recieve higher points by clearing multiple rows at the same time.",
+                "languages": ["Java", "Java Swing"]
+            },
+            {
+                "id": 23,
+                "title": "Asteroids",
+                "githubUrl": "https://github.com/CMogstad/Asteroids",
+                "images": [
+                    {
+                        "url": "../src/images/AsteroidsImages/gameplay.JPG",
+                        "caption": "Gameplay"
+                    },
+                    {
+                        "url": "../src/images/AsteroidsImages/gameover.JPG",
+                        "caption": "Game over"
+                    }
+                ],
+                "summary": "Simple 2D game built with Java and Swing.",
+                "description": "Simple 2D game built with Java and Swing. Control a spaceship and destroy asteroids. The game is over when the spaceship is hit or asteroids make it to the end of the screen undestroyed three times. This is the first game I have built and I am self-taught in Swing.",
+                "languages": ["Java", "Java Swing"]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "School Group Projects",
+        "projects": [
+            {
+                "id": 31,
+                "title": "Recipe Website",
+                "githubUrl": "https://github.com/CMogstad/RecipeWebsite",
+                "image": "src/images/RecipeWesiteImages/homepage.JPG",
+                "images": [
+                    {
+                        "url": "../src/images/RecipeWesiteImages/homepage.JPG",
+                        "caption": "Homepage"
+                    },
+                    {
+                        "url": "../src/images/RecipeWesiteImages/recipepage_recipe.JPG",
+                        "caption": "Recipe page - instructions and ingredients"
+                    },
+                    {
+                        "url": "../src/images/RecipeWesiteImages/recipepage_rating_comments.JPG",
+                        "caption": "Recipe page - ratings and comments"
+                    }
+                ],
+                "summary": "Recipe website built with Vue.",
+                "description": "This website displays recipes from a database and allows the user to search for specific recipes, filter recipes based on categories, and rate and comment on recipes.",
+                "languages": ["Vue", "Javascript", "HTML", "CSS"]
+            },
+            {
+                "id": 32,
+                "title": "Weekly Menu",
+                "githubUrl": "https://github.com/CMogstad/VeckansMeny",
+                "image": "../src/images/WeeklyMenuImages/menuPopularDishes.JPG",
+                "images": [
+                    {
+                        "url": "../src/images/WeeklyMenuImages/menuPopularDishes.JPG",
+                        "caption": "Menu of most popular dishes"
+                    },
+                    {
+                        "url": "../src/images/WeeklyMenuImages/menuRandomDishes.JPG",
+                        "caption": "Menu of randomly selected dishes"
+                    },
+                    {
+                        "url": "../src/images/WeeklyMenuImages/listOfDishes.JPG",
+                        "caption": "List of all dishes"
+                    },
+                    {
+                        "url": "../src/images/WeeklyMenuImages/editDish.JPG",
+                        "caption": "Edit dish"
+                    },
+                    {
+                        "url": "../src/images/WeeklyMenuImages/editIngredient.JPG",
+                        "caption": "Edit ingredient"
+                    }
+                ],
+                "summary": "Website built with Java Spring that reads from, and writes to an SQL database.",
+                "description": "Website built with Java Spring that reads from, and writes to an SQL database. The user can create dishes and then generate a weekly menu where each day is assigned a ramdom dish, or the menu selects the dishes with the highest number of likes.",
+                "languages": ["Java Spring", "Java", "SQL", "HTML", "CSS"]
+            },
+            {
+                "id": 33,
+                "title": "School Management System",
+                "githubUrl": "https://github.com/CMogstad/SchoolManagement2",
+                "image": "../src/images/SchoolManagementImages/mainmenu.JPG",
+                "images": [
+                    {
+                        "url": "../src/images/SchoolManagementImages/mainmenu.JPG",
+                        "caption": "Main menu"
+                    },
+                    {
+                        "url": "../src/images/SchoolManagementImages/studentmenu.JPG",
+                        "caption": "Student menu"
+                    },
+                    {
+                        "url": "../src/images/SchoolManagementImages/addstudent.JPG",
+                        "caption": "Add a student"
+                    },
+                    {
+                        "url": "../src/images/SchoolManagementImages/allstudents.JPG",
+                        "caption": "List of all students"
+                    }
+                ],
+                "summary": "Java application that reads from, and writes to an SQL database.",
+                "description": "Java application that reads from, and writes to an SQL database. This was my first programming group project where the focus was on buidling a complex database. By using a terminal a user can create, read, update, delete and search for students, teachers, educations and courses. Each of these data entities has a many-to-many relationship to one another.",
+                "languages": ["Java",  "SQL"]
+            }
+        ]
+    }
+]
