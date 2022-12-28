@@ -26,7 +26,7 @@ export default {
       <main class="header-main-container">
         <div class="portrait-container">
           <img
-            src="src/images/1611160422206.jpg"
+            src="../images/1611160422206.jpg"
             alt="Image of me"
             class="portrait"
           />
