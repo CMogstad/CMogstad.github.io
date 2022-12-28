@@ -3,19 +3,14 @@ import SkillsList from "../components/SkillsList.vue";
 import EductionList from "../components/EductionList.vue";
 import ExperienceList from "../components/ExperienceList.vue";
 import Contacts from "../components/Contacts.vue";
+import data from "../data/resume.json";
 
 export default {
   components: { SkillsList, EductionList, ExperienceList, Contacts },
   data() {
     return {
-      resumeData: {},
+      resumeData: data,
     };
-  },
-  created() {
-    fetch("/src/data/resume.json")
-      .then((response) => response.json())
-      .then((data) => (this.resumeData = data))
-      .catch((error) => console.log("Error - Resume data not fetched..."));
   },
 };
 </script>

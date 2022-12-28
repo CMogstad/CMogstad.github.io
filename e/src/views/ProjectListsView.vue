@@ -1,21 +1,14 @@
 <script>
 import ProjectList from "../components/ProjectList.vue";
 import ProjectMenu from "../components/ProjectMenu.vue";
+import data from "../data/projectLists.json";
 
 export default {
   components: { ProjectList, ProjectMenu },
   data() {
     return {
-      projectLists: null,
+      projectLists: data,
     };
-  },
-  created() {
-    fetch("src/data/projectLists.json")
-      .then((response) => response.json())
-      .then((data) => (this.projectLists = data))
-      .catch((error) =>
-        console.log("Error - Project List data not fetched...")
-      );
   },
 };
 </script>

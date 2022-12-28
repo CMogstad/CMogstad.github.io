@@ -1,17 +1,13 @@
 <script>
 import Contacts from "../components/Contacts.vue";
+import data from "../data/resume.json";
+
 export default {
   components: { Contacts },
   data() {
     return {
-      contactData: null,
+      contactData: data,
     };
-  },
-  created() {
-    fetch("src/data/resume.json")
-      .then((response) => response.json())
-      .then((data) => (this.contactData = data.contacts))
-      .catch((error) => console.log("Error - Resume data not fetched..."));
   },
 };
 </script>
