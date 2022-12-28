@@ -12,7 +12,7 @@ export default {
     };
   },
   created() {
-    fetch("src/data/resume.json")
+    fetch("/src/data/resume.json")
       .then((response) => response.json())
       .then((data) => (this.resumeData = data))
       .catch((error) => console.log("Error - Resume data not fetched..."));
