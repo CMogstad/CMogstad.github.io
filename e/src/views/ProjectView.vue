@@ -1,4 +1,5 @@
 <script>
+//require("@/images/ResumeImages/Resume.JPG");
 import projectListsJSON from "../data/projectLists.json";
 import ImageGallery from "../components/ImageGallery.vue";
 

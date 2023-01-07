@@ -1,6 +1,13 @@
 <script>
+import { getImageFromName } from "./ImageLibrary.vue";
+
 export default {
   props: ["project"],
+  methods: {
+    getImage() {
+      return getImageFromName(this.project.images[0].imageName);
+    },
+  },
 };
 </script>
 
@@ -15,11 +22,7 @@ export default {
         </ul>
       </div>
       <div class="image-container">
-        <img
-          class="image"
-          :src="project.images[0].url"
-          alt="Screenshot of project"
-        />
+        <img class="image" :src="getImage()" alt="Screenshot of project" />
       </div>
     </div>
   </RouterLink>

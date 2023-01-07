@@ -1,4 +1,6 @@
 <script>
+import { getImageFromName } from "./ImageLibrary.vue";
+
 export default {
   props: ["images"],
   data() {
@@ -8,6 +10,9 @@ export default {
     };
   },
   methods: {
+    getImage(name) {
+      return getImageFromName(name);
+    },
     setImagesData() {
       let counter = 1;
       let data;
@@ -15,7 +20,7 @@ export default {
       for (let i = 0; i < this.images.length; i++) {
         data = {
           number: counter,
-          url: this.images[i].url,
+          imageName: this.images[i].imageName,
           caption: this.images[i].caption,
           hidden: true,
           active: false,
@@ -67,7 +72,7 @@ export default {
       :class="{ hide: imagesData[slideIndex].hidden }"
     >
       <img
-        :src="imagesData[slideIndex].url"
+        :src="getImage(this.imagesData[this.slideIndex].imageName)"
         alt="Screenshot of project"
         class="displayed-image"
       />
@@ -84,7 +89,7 @@ export default {
         <img
           class="thumbnail cursor"
           :class="{ active: thumbnail.active }"
-          :src="thumbnail.url"
+          :src="getImage(thumbnail.imageName)"
           @click="currentSlide(thumbnail.number)"
           alt="Thumbnail"
         />
